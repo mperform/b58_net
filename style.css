@@ -1,0 +1,48 @@
+header h1, header h2, header h3 {
+    font-family: 'Noto Serif', serif;
+    font-weight: bold; 
+    font-style: italic;
+    color: rgb(255, 255, 255);
+}
+header {
+    width: 100%;
+    padding: 5px 0;
+    margin: 0 auto;
+    background-color: rgb(83, 195, 255);
+    /* Add other styles as needed */
+}
+
+body {
+    font-family: 'Noto Serif', serif;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    /* Add other styles as needed */
+}
+
+/* Fixed position for the toggle button */
+#sidebarToggle {
+    position: fixed;
+    right: 20px;
+    top: 25px;
+    cursor: pointer;
+    z-index: 1000; /* Ensure it's above other elements */
+}
+
+/* Styles for the sidebar when it is hidden */
+.sidebar {
+    width: 200px;
+    padding: 20px;
+    background-color: #4294ff;
+    display: none; /* Hidden by default */
+    transition: all 0.5s ease; /* Transition for the animation */
+    position: fixed; /* Fixed position */
+    right: -250px; /* Start offscreen to the right */
+    top: 0;
+    height: 100%;
+}
+
+/* Styles for the sidebar when it is shown */
+.sidebar-open {
+    display: block;
+    right: 0; /* Bring into view */
+}

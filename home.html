@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BMW B58 Engine</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>BMW B58 Engine</h1>
+        <img float="right" id="sidebarToggle" src="images/menu_icon.gif" alt="Toggle Sidebar" width="8%" height="6%" onClick={toggleMenu}>
+    </header>
+    <div className={`sidebar ${isMenuOpen ? 'sidebar-open' : ''}`} id="main_menu">
+        <div class="sidebar" id="main_menu">
+            <ul>
+                <li><a href="about.html">About the engine</a></li>
+                <li><a href="exterior.html">Exterior Modifications</a></li>
+                <li><a href="interior.html">Interior Modifications</a></li>
+                <li><a href="customize.html">Customize your B58!</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <main>
+        <section id="about">
+            <h2>About the BMW B58 Engine</h2>
+            <p>The BMW B58 engine is a turbocharged inline-six engine produced by BMW. It is part of BMW's modular engine family and is used in various BMW models.</p>
+        </section>
+
+        <section id="features">
+            <h2>Key Features</h2>
+            <ul>
+                <li>Inline-six configuration</li>
+                <li>Twin-scroll turbocharger</li>
+                <li>Direct fuel injection</li>
+                <li>Valvetronic variable valve lift</li>
+                <li>Double VANOS variable camshaft timing</li>
+            </ul>
+        </section>
+
+        <section id="performance">
+            <h2>Performance</h2>
+            <p>The BMW B58 engine delivers impressive performance with its combination of power and efficiency. It produces [insert horsepower and torque figures] and can propel the vehicle from 0 to 60 mph in [insert time].</p>
+        </section>
+
+        <section id="applications">
+            <h2>Applications</h2>
+            <p>The BMW B58 engine is used in various BMW models, including:</p>
+            <ul>
+                <li>BMW 340i</li>
+                <li>BMW 440i</li>
+                <li>BMW M240i</li>
+                <li>BMW X3 M40i</li>
+                <li>BMW X4 M40i</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2022 BMW. All rights reserved.</p>
+    </footer>
+</body>
+</html>
