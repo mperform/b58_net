@@ -1,10 +1,10 @@
 import React from 'react';
-import MyComponent from './components/MyComponent'; // Import MyComponent from the components directory
+import MyComponent from './components/myComponent'; // Import MyComponent from the components directory
 
 function App() {
     return (
         <div className="App">
-            <MyComponent /> {/* Use MyComponent in your App */}
+            <MyComponent /> {/* Correct usage */}
         </div>
     );
 }
